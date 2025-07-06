@@ -21,13 +21,14 @@ Our model demonstrates state-of-the-art performance in classifying depression se
     * **Recall (Sensitivity):** 79%
     * **Precision:** 81%
     * **F2-Score:** 79%
-    These high Recall and F2 scores highlight the model's effectiveness in correctly identifying patients with depression.
 
 * **📊 Strong Performance on the Binary Task (Depressed/Not-Depressed):** The model showed excellent performance in identifying the presence of depression:
     * **Accuracy:** 90%
     * **Recall (Sensitivity):** 80%
     * **Precision:** 86%
     * **F2-Score:** 95%
+      
+   These high Recall and F2 scores highlight the model's effectiveness in correctly identifying patients with depression.
 
 * **🏆 Outperformed >10 Baselines**, including traditional machine learning algorithms and other deep learning models.
 
