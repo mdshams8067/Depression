@@ -6,7 +6,7 @@ Clinical depression diganosis heavily relies on self reported assessments that a
 
 Our key contributions are:
 
-1.  **A New Tri-Modal Dataset:** A gold-standard dataset of 103 participants. This dataset includes audio, facial video, and saliency data with ground-truth PHQ-9 scores.
+1.  **A New Tri-Modal Dataset:** A gold-standard dataset of 103 participants. This dataset includes audio, facial video, and eye tracking data with ground-truth PHQ-9 scores.
 
 2.  **High Frequency Signals:** Exisitng graph based depression detection methods primarily focus on low frequency signals. We demonstrate the high frequency signals contain critical information for depression detection
 
