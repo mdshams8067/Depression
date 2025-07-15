@@ -14,6 +14,13 @@ Our key contributions are:
 
 4.  **Saliency map fusion:** Use of saliency map in a multimodal approach has not been explored before us.
 
+## Data Collection
+![](./Data_collection.png)
+
+## 🧠 Model Architecture
+
+Our framework first extracts features from each modality in three separate streams. These features are then passed through our Graph Convolution Network(GCN) and the Multi-Frequency Filter Bank Module(MFFBM) that uses both high and low pass signals to do the final classification
+
 ## ✨ Key Results
 
 The evaluation was done in two tasks - 
@@ -44,9 +51,7 @@ Note: Bold values indicate the best performance for each metric within each moda
 Abbreviations: DT = Decision Tree [<sup>8</sup>](#reference-8), RF = Random Forest [<sup>1</sup>](#reference-1), XGB = XGBoost [<sup>3</sup>](#reference-3), LR = Logistic Regression [<sup>6</sup>](#reference-6), KNN = K-Nearest Neighbors [<sup>5</sup>](#reference-5), GNB = Gaussian Naive Bayes [<sup>7</sup>](#reference-7), SVM = Support Vector Machine [<sup>4</sup>](#reference-4), TF(S) = Self Attention Transformer [<sup>9</sup>](#reference-9), TF(C) = Cross Attention Transformer [<sup>9</sup>](#reference-9), IIFDD = Intra and inter-modal fusion for depression detection [<sup>2</sup>](#reference-2), GCN = Graph Convolutional Network (Ours)
 
 Metrics: Spec = Specificity, Sens = Sensitivity, F2 = F2-Score.
-## 🧠 Model Architecture
 
-Our framework first extracts features from each modality in three separate streams. These features are then passed through our Graph Convolution Network(GCN) and the Multi-Frequency Filter Bank Module(MFFBM) that uses both high and low pass signals to do the final classification
 
 ## References
 
